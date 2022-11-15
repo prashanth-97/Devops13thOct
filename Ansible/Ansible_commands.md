@@ -8,6 +8,10 @@
 
 - vi /etc/ansible/hosts
 
+# to remove ansible
+
+sudo yum remove ansible
+
 # how to run ansible playbooks
 - ansible-playbook -i "hosts" "file.yml"
 

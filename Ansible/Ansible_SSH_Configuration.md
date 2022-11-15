@@ -21,7 +21,7 @@ Example: ssh -i Demo_vinod_1Sep.pem ec2-user@3.89.74.234
 
 # We need to copy the id_rsa.pub key to the VM's/ machine which need to be connected- hosts unders authenticatedkeys
 - cd  .ssh 
-- vi autenticatedkeys
+- vi authorized_keys
 
 
 

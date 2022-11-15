@@ -4,6 +4,9 @@
 - sudo amazon-linux-extras install ansible2 -y
 - ansible --version
 
+# find the host file or create it 
+
+- vi /etc/ansible/hosts
 
 # how to run ansible playbooks
 - ansible-playbook -i "hosts" "file.yml"

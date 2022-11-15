@@ -1,3 +1,10 @@
+# Command to install ansible 
+
+- sudo yum update -y
+- sudo amazon-linux-extras install ansible2 -y
+- ansible --version
+
+
 # how to run ansible playbooks
 - ansible-playbook -i "hosts" "file.yml"
 
